@@ -4,11 +4,13 @@
   box-sizing: border-box ;
 }
 
+
 html{
   --bg-color: #edf2ff;
   --text-color:#00082f;
   --primary-color: #4263eb;
   --primary-color-dark: #364fc7;
+ 
 }
 body.dark{
   --bg-color: #00082f;
@@ -21,8 +23,18 @@ body.pink{
   --primary-color:#d6336c;
   --primary-color-dark: #a61e4d;
 }
+body.fundo{
+  height: 100vh;
+  background-image: url(../img/WhatsApp\ Image\ 2022-07-06\ at\ 22.36.30.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 450px;
+
+}
 
 body{
+ 
   background: var(--bg-color);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
